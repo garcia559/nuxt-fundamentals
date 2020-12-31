@@ -33,7 +33,13 @@ export default {
   },
   head () {
     return {
-      title: 'Home Page'
+      title: 'Home Page',
+      meta: [
+        { name: 'twitter:title', content: 'Nuxt Fundamentals by Vue Schools' },
+        { name: 'twitter:description', content: 'Nuxt + Vue School' },
+        { name: 'twitter:image', content: 'http://i.imgur.com/UYP2umJ.png' },
+        { name: 'twitter:card', content: 'summary_large_image' }
+      ]
     }
   }
 }

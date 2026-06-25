@@ -12,7 +12,7 @@
 
       <aside>
         <h3>
-          Posts you might enjoy
+          Posts you might enjoy... Borrar
         </h3>
         <ul>
           <li v-for="related in relatedPosts" :key="related.id">
